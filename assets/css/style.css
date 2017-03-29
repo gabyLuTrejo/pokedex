@@ -1,0 +1,39 @@
+body{
+  background-image: url("img/pokedex.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: inherit;
+  background-position: center;
+}
+
+h1{
+  /*font-size: 35px;*/
+  font-weight: bold;
+  color: #0F2234;
+}
+
+hr{
+  width: 60%;
+}
+
+table {
+  border-collapse:separate;
+  table-layout: fixed;
+  width:52%;
+}
+
+td {
+  padding:3px;
+  font-weight: bold;
+}
+
+#creaPokemon{
+  width: 170px;
+}
+
+ul{
+    text-align:center;
+}
+li{
+    list-style-position: inside;
+}

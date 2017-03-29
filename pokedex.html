@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokedex de Gaby</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body align="center">
+    <h1> P o k e d e x </h1>
+    <hr>
+    <section>
+      <table align="center">
+        <td> Nombre </td>
+        <td> Color </td>
+        <td>Puntos de Ataque</td>
+        <td></td>
+      </table>
+      <input type="text" id="nombrePokemon" placeholder="Ditto">
+      <input type="text" id="colorPokemon" placeholder="morado">
+      <input type="number" id="ataquePokemon" placeholder="100">
+      <button id="creaPokemon" onclick="agregarSelects(); crearPokemon();"> Crear Pokemon </button>
+    </section>
+    <br>
+    <select id="pokemon1">
+      <option value="" disabled selected>Pokemon 1</option>
+    </select>
+    <select id="pokemon2">
+      <option value="" disabled selected>Pokemon 2</option>
+    </select>
+    <button id="peleaPokemon" onclick="pelea();"> Atacar </button>
+    <br><hr>
+
+<!--Imprimir lista de pokemons  -->
+    <section id="listaPokemones">
+      <!-- <ul id="listaPokemones"></ul> -->
+    </section>
+    <p id="resultadoPelea"><p>
+
+    <script type="text/javascript" src="assets/js/pokedex.js"> </script>
+
+    </script>
+  </body>
+</html>
